@@ -1,0 +1,11 @@
+@dependency_injection_HostAddress = http://localhost:5288
+
+GET {{dependency_injection_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{dependency_injection_HostAddress}}/todos/1
+Accept: application/json
+
+###
